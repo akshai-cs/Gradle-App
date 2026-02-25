@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         gradle 'Gradle' // Ensure this matches Jenkins tool config
-        jdk 'JDK'       // Ensure this matches Jenkins tool config
+        jdk 'JDK17'       // Ensure this matches Jenkins tool config
     }
     stages {
         stage('Checkout') {
